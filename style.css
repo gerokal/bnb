@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height:100%;
+	margin:0;
+	padding:0;
+	}
+
+ul{
+	padding:auto;
+	}
+
+.header{
+	min-height:150px;
+	width: 100%;
+	display: table;
+	background-color: #7DBAFB;
+	text-align: center;
+	margin: auto;
+}
+.title{
+	display: table-cell;
+	vertical-align: middle;
+	min-height:150px;
+	/*	display:flex;
+	justify-content:center;
+	align-items:center;*/
+}
+.title1 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 100%;
+	color: #0D0040;
+	opacity: 1.00;
+}
+.title2{
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 100%;
+	color: #31319F;
+	opacity: 1.00;
+}
+
+/***** menu-nav *****/
+
+#nav {
+	display:table; /* centers modern browsers */
+	margin:0 auto; /* centers modern browsers */
+	text-align:center; /* centers IE6/7 */
+	font-family: "Roboto";
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px 0;
+}
+#nav ul {
+	list-style:none;
+	display:inline-block; /* IE6/7 haslayout trip-switch */
+}
+#nav ul {
+	display:inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
+}
+#nav li {
+	display:inline;
+}
+#nav a {
+	text-decoration:none;
+	padding:5px 50px; /* variable width */
+	color: #0D0040;
+}
+#nav a:hover{
+	font-weight: normal;
+	background:#7DBAFB;
+	border-right: 2px solid #2900FF;
+	border-left: 2px solid #2900FF;
+}
+.line-menu{
+	min-height: 2px;
+	background-color: #2900FF;
+	z-index: 100;
+}
+/****** end menu-nav *****/
+.cta{
+	margin: 30px 0;
+	text-align: center;
+	font-family: "Roboto";
+}
+.availability{
+	font-weight: normal;
+	font-size: 12px;
+}
+.cta-btn{
+	margin: auto;
+	font-weight: bold;
+	font-size: 24px;
+	width: 280px;
+	background: #7DBAFB;
+	opacity: 1.00;
+	border-radius: 20px;
+	border: 2px solid #2900FF;
+}
+.section-line{
+	margin: 10px 0;
+	padding-left: 10px;
+	font-family: "Roboto";
+	font-weight: bold;
+	font-size: 18px;
+	min-height: 20px;
+	background-color: #7DBAFB;
+}
+.room-price{
+	display: inline-block;
+	margin: 20px 20px;
+	font-weight: bold;
+	font-size: 18px;
+	min-width: 280px;
+	background: #7DBAFB;
+	opacity: 1.00;
+	border-radius: 5px;
+	border: 2px solid #2900FF;
+	text-align: center;
+}
+.title-link{
+	text-align: left;
+	font-weight: bold;
+	font-family: "Roboto";
+}
+.title-link a{
+	color: black;
+}
+.footer{
+	padding: 10px;
+	margin-top: 30px;
+	background: #0D0040;
+}
+.text-footer{
+	text-align: center;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+.text-footer li {
+	display:inline;
+	padding: 0 5px;
+	/*float:left;*/
+}
